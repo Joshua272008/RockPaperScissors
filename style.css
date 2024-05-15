@@ -1,0 +1,42 @@
+#calc-outer
+{
+    padding: 20px;
+    height: 670px;
+    width: 750px;
+    border: 10px solid #486081;
+    box-sizing: border-box;
+    background-color: steelblue;
+}
+
+#rpc-box
+{
+    height: 450px;
+    width: 690px;
+    border: 10px solid #486081;
+    box-sizing: border-box;
+    background-color: steelblue;
+}
+
+#shoot-box
+{
+    height: 145px;
+    width: 690px;
+    border: 10px solid #486081;
+    box-sizing: border-box;
+    background-color: steelblue;
+}
+
+.btn
+{
+    width: 670px;
+    height: 100px;
+    background-color: steelblue;
+    text-decoration-color: white;
+    text-decoration-thickness: 15px;
+}
+
+.btn:hover
+{
+    background-color: #bae4fd;
+
+}
