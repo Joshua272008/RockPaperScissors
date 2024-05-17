@@ -12,12 +12,16 @@
 <body>
 <div id="calc-outer" class="mx-auto mt-5">
     <div id="rpc-box">
-        <button class="btn text-white">Rock</button>
-        <button class="btn text-white">Paper</button>
-        <button class="btn text-white">Scissors</button>
+        <button class="btn text-white" onclick="rock()">Rock</button>
+        <button class="btn text-white" onclick="paper()">Paper</button>
+        <button class="btn text-white" onclick="scissor()">Scissors</button>
     </div>
     <div id="shoot-box">
-        <button class="btn text-white">Shoot</button>
+        <button class="btn text-white" onclick="shoot()">Shoot</button>
+    </div>
+
+    <div class="display text-white">
+        <p id="winnerDisplayed"></p>
     </div>
 </div>
 </body>
