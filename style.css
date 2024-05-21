@@ -6,7 +6,7 @@ body
 #calc-outer
 {
     padding: 20px;
-    height: 670px;
+    height: 405px;
     width: 300px;
     border: 10px solid #486081;
     box-sizing: border-box;
@@ -15,7 +15,7 @@ body
 
 #rpc-box
 {
-    height: 200px;
+    height: 175px;
     width: 250px;
     border: 10px solid #486081;
     box-sizing: border-box;
@@ -24,7 +24,7 @@ body
 
 #shoot-box
 {
-    height: 145px;
+    height: 75px;
     width: 250px;
     border: 10px solid #486081;
     box-sizing: border-box;
@@ -48,8 +48,11 @@ body
 .winDisplay
 {
     height: 50px;
-    width: 680px;
+    width: 250px;
     border: 5px solid blue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
 }
 
 .compDisplay
@@ -57,4 +60,6 @@ body
     height: 50px;
     width: 250px;
     border: 5px solid blue;
+    margin-bottom: 5px;
+    padding-top: 5px;
 }
