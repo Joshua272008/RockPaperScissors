@@ -20,7 +20,7 @@ function scissor()
 
 function compChoice()
 {
-    let rpc = ["rock", "paper", "scissors"]
+    let rpc = ["rock", "paper", "scissor"]
     let comps = Math.floor(Math.random() * 3);
     comp = rpc[comps]
 }
