@@ -6,7 +6,7 @@ body
 #calc-outer
 {
     padding: 20px;
-    height: 405px;
+    height: 455px;
     width: 300px;
     border: 10px solid #486081;
     box-sizing: border-box;
@@ -56,6 +56,15 @@ body
 }
 
 .compDisplay
+{
+    height: 50px;
+    width: 250px;
+    border: 5px solid blue;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+
+.playerDisplay
 {
     height: 50px;
     width: 250px;

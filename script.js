@@ -33,11 +33,14 @@ function shoot() {
 
     compChoice();
 
+    document.getElementById("winnerDisplayed").innerHTML = " ";
+
     if(player === comp)
     {
         console.log("Computer Wins");
         winner = "It's a tie!"
         document.getElementById("compDisplay").innerHTML = comp;
+        document.getElementById("playerDisplay").innerHTML = player;
         document.getElementById("winnerDisplayed").innerHTML = winner;
     }
     else if(player === "rock" && comp === "paper")
@@ -45,6 +48,7 @@ function shoot() {
         console.log("Computer Wins");
         winner = compWin;
         document.getElementById("compDisplay").innerHTML = comp;
+        document.getElementById("playerDisplay").innerHTML = player;
         document.getElementById("winnerDisplayed").innerHTML = winner;
     }
     else if(player === "rock" && comp === "scissor")
@@ -52,6 +56,7 @@ function shoot() {
         console.log("Player Wins");
         winner = playerWin;
         document.getElementById("compDisplay").innerHTML = comp;
+        document.getElementById("playerDisplay").innerHTML = player;
         document.getElementById("winnerDisplayed").innerHTML = winner;
     }
     else if(player === "paper" && comp === "scissor")
@@ -59,6 +64,7 @@ function shoot() {
         console.log("Computer Wins")
         winner = compWin;
         document.getElementById("compDisplay").innerHTML = comp;
+        document.getElementById("playerDisplay").innerHTML = player;
         document.getElementById("winnerDisplayed").innerHTML = winner;
     }
     else if(player === "paper" && comp === "rock")
@@ -66,6 +72,7 @@ function shoot() {
         console.log("Player Wins")
         winner = playerWin;
         document.getElementById("compDisplay").innerHTML = comp;
+        document.getElementById("playerDisplay").innerHTML = player;
         document.getElementById("winnerDisplayed").innerHTML = winner;
     }
     else if(player === "scissor" && comp === "rock")
@@ -74,6 +81,7 @@ function shoot() {
         winner = compWin;
 
         document.getElementById("compDisplay").innerHTML = comp;
+        document.getElementById("playerDisplay").innerHTML = player;
         document.getElementById("winnerDisplayed").innerHTML = winner;
     }
     else if(player === "scissor" && comp === "paper")
@@ -81,6 +89,7 @@ function shoot() {
         console.log("Player Wins")
         winner = playerWin;
         document.getElementById("compDisplay").innerHTML = comp;
+        document.getElementById("playerDisplay").innerHTML = player;
         document.getElementById("winnerDisplayed").innerHTML += winner;
 
     }
